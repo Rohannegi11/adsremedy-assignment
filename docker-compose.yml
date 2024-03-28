@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+  mynodeapp:
+    container_name: nodejs
+    image: rohannegi11/nodejs
+    build: .
+    ports:
+      - "3000:3000"
+
